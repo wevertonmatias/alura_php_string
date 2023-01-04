@@ -10,3 +10,8 @@ $index = strpos($email, '@');
 
 var_dump(substr($email, 0, $index));
 var_dump(substr($email, $index+1));
+
+$senha = 'abc';
+$senha2 = 'àçã';
+var_dump(strlen($senha));
+var_dump(strlen($senha2));
